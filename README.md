@@ -1,5 +1,5 @@
 # Facial-Recognize-in-Python
-DESCRIPTION:
+## Descrição/Description:
 [PT-BR]
 Este projeto implementa um sistema de detecção de rostos em tempo real utilizando a biblioteca OpenCV em Python. O sistema é capaz de identificar rostos através da webcam e exibir uma barra de carregamento enquanto cada rosto é processado.
 O projeto pode ser executado em qualquer sistema que suporte Python e tenha uma webcam conectada. Ao ser iniciado, ele abrirá uma janela de visualização, onde os rostos detectados serão destacados e as barras de carregamento serão exibidas. O usuário pode encerrar o programa pressionando a tecla 'q'.
@@ -19,25 +19,25 @@ Features:
 - Freezing Faces: After the loading is complete, the faces are temporarily "frozen." A mechanism is implemented to restart the process after all faces on screen have completed the loading.
 - Visual Interface: The detections are visually represented on the screen with rectangles around the faces, along with a loading bar that changes size according to the progress.
 
-VERSION:
+## Versão/Version:
 [PT-BR]
 O código foi desenvolvido na versão Python 3.12, porém ele pode ser usado em qualquer versão a partir da versão Python 3.6.
 
 [ENG]
 The code was developed in Python 3.12, but it can be used in any version starting from Python 3.6.
 
-LIBS:
+## Bibliotécas/Libraries:
 [PT-BR] 
 As bíbliotecas usadas foram:
-OpenCV
-time
+- OpenCV
+- time
 
 [ENG]
 The libraries used were:
-Open CV
-time
+- Open CV
+- time
 
-MATERIAL:
+## Materiais/Materials:
 [PT-BR]
 - Câmera webcam Full HD Logitech C920
 - Qualquer sistema operacional que suporte o Python
@@ -46,17 +46,17 @@ MATERIAL:
 - Full HD Logitech C920 Webcam
 - Any operating system that supports Python
 
-HOW TO...
+## Passo a Passo/How To Do It:
 [PT-BR]
-1. PREPARAÇÃO DO AMBIENTE
+### 1. PREPARAÇÃO DO AMBIENTE
 - Instale o Python:
   - Baixe e instale a versão mais recente do Python (recomendado 3.6 ou superior) do site oficial: python.org. O instalador geralmente já inclui o IDLE.
 
-2. ABRINDO O IDLE
+### 2. ABRINDO O IDLE
 - Abra o IDLE:
   - Após a instalação, abra o IDLE do Python. Você pode encontrar o IDLE no menu de programas do Python ou digitando "IDLE" na busca do seu sistema operacional.
 
-3. INSTALAÇÃO DAS BIBLIOTECAS:
+### 3. INSTALAÇÃO DAS BIBLIOTECAS:
 - Abra o Terminal do IDLE:
 
   - No IDLE, vá até o menu e clique em File > New File para abrir um novo editor.
@@ -87,7 +87,7 @@ install('numpy')
   - Salve o arquivo como install_packages.py.
   - Execute o código pressionando F5 ou indo em Run > Run Module. Isso instalará o OpenCV e o NumPy.
 
-4. IMPLEMENTAÇÃO DO CÓDIGO PRINCIPAL:
+### 4. IMPLEMENTAÇÃO DO CÓDIGO PRINCIPAL:
 - Crie um Novo Arquivo para o Código:
   - No IDLE, novamente clique em File > New File.
 
@@ -237,11 +237,11 @@ cv2.destroyAllWindows()
 
   - Salve o arquivo como face_detection.py.
 
-5. EXECUÇÃO DO CÓDIGO:
+### 5. EXECUÇÃO DO CÓDIGO:
 - Execute o Código:
   - No IDLE, pressione F5 ou vá em Run > Run Module para executar o código.
 
-6. INTERAÇÃO COM O PROGRAMA:
+### 6. INTERAÇÃO COM O PROGRAMA:
 - Use a Webcam:
 
   - Certifique-se de que a webcam esteja funcionando. Quando o programa estiver em execução, ele abrirá uma janela mostrando a detecção de rostos e as barras de carregamento.
@@ -249,19 +249,19 @@ cv2.destroyAllWindows()
 - Finalizar o Programa:
   - Pressione a tecla 'q' para sair do programa.
 
-CONCLUSÃO:
+### CONCLUSÃO:
 Agora você tem um projeto funcional de detecção de rostos com barra de carregamento usando o IDLE! Você pode personalizar e expandir esse projeto conforme necessário. Se precisar de mais alguma coisa, é só avisar!
 
 [ENG]
-1. ENVIRONMENT SETUP
+### 1. ENVIRONMENT SETUP
 - Install Python:
   - Download and install the latest version of Python (recommended 3.6 or higher) from the official website: python.org. The installer usually includes IDLE.
 
-2. OPENING IDLE
+### 2. OPENING IDLE
 - Open IDLE:
   - After installation, open Python's IDLE. You can find IDLE in the Python program menu or by typing "IDLE" in your operating system's search bar.
 
-3. INSTALLING LIBRARIES:
+### 3. INSTALLING LIBRARIES:
 - Open the IDLE Terminal:
 
   - In IDLE, go to the menu and click on File > New File to open a new editor.
@@ -293,7 +293,7 @@ install('numpy')
   - Save the file as install_packages.py.
   - Execute the code by pressing F5 or going to Run > Run Module. This will install OpenCV and NumPy.
 
-4. IMPLEMENTING THE MAIN CODE
+### 4. IMPLEMENTING THE MAIN CODE
 - Create a New File for the Code:
   - In IDLE, click again on File > New File.
 
@@ -442,11 +442,11 @@ cv2.destroyAllWindows()
 
   - Save the file as face_detection.py.
 
-5. RUNNING THE CODE:
+### 5. RUNNING THE CODE:
 - Run the Code:
   - In IDLE, press F5 or go to Run > Run Module to execute the code.
 
-6. INTERACTION WITH THE PROGRAM:
+### 6. INTERACTION WITH THE PROGRAM:
 - Use the Webcam:
 
   - Make sure the webcam is functioning. When the program is running, it will open a window displaying face detection and loading bars.
@@ -454,5 +454,5 @@ cv2.destroyAllWindows()
 - Exit the Program:
   - Press the 'q' key to exit the program.
 
-CONCLUSION:
+### CONCLUSION:
 Now you have a functional face detection project with a loading bar using IDLE! You can customize and expand this project as needed. If you need anything else, just let me know!
